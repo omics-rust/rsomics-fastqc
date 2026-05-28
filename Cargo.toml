@@ -15,6 +15,11 @@ keywords = ["fastq", "bioinformatics", "quality-control", "fastqc", "multiqc"]
 name = "rsomics-fastqc"
 path = "src/main.rs"
 
+
+[lib]
+name = "rsomics_fastqc"
+path = "src/lib.rs"
+doctest = false
 [dependencies]
 rsomics-common = { version = "0.6" }
 rsomics-help = { version = "0.3" }
