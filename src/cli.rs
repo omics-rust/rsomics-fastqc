@@ -171,7 +171,6 @@ pub const HELP: HelpSpec = HelpSpec {
 mod tests {
     use clap::CommandFactory;
 
-    // clap's debug_assert only fires in binary parse, not lib tests — this test is the only way to catch CLI definition errors
     #[test]
     fn cli_definition_is_valid() {
         super::Cli::command().debug_assert();
