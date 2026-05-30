@@ -127,7 +127,7 @@ pub const HELP: HelpSpec = HelpSpec {
                 type_hint: Some("bool"),
                 required: false,
                 default: Some("false"),
-                description: "Emit AI-friendly JSON envelope on stdout",
+                description: "Emit JSON envelope on stdout",
                 why_default: None,
             },
             FlagSpec {
